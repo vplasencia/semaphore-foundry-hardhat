@@ -8,7 +8,9 @@
     "deploy": "hardhat deploy",
     "test": "hardhat test",
     "test:report-gas": "REPORT_GAS=true hardhat test",
-    "test:coverage": "hardhat coverage"
+    "test:coverage": "hardhat coverage",
+    "install:all": "make && yarn",
+    "test:all": "forge test && hardhat test"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",

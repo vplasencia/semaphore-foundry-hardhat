@@ -11,7 +11,7 @@ git clone https://github.com/vplasencia/semaphore-foundry-hardhat.git
 ## Install dependencies
 
 ```bash
-make && yarn
+yarn install:all
 ```
 
 ## Build
@@ -23,7 +23,7 @@ make build
 ## Test
 
 ```bash
-make test && yarn test
+yarn test:all
 ```
 
 ## Show gas report
